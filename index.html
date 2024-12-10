@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ansible dev -b -m copy -a "src=/home/ansible/demo.txt dest=/home/ansible/"</h1>
+    <h1>ansible dev -b -m copy -a "src=/home/ansible/demo.txt dest=/home/ansible/"</h1>
+    <h1>ansible dev -b -m file -a "path=/home/ansible/demo.txt state=absent"</h1>
+    <h1>ansible dev -b -m shell -a "cd /home/ansible/demo"</h1>
+    <h1>ansible dev -b -m file -a "path=/home/ansible/demo state=directory"</h1>
+    <h1>ansible dev -b -m file -a "path=/home/ansible/demo state=absent"</h1>
+    <h1>ansible dev -b -m file -a "path=/home/ansible/file.txt state=touch"</h1>
+    <h1>ansible dev -b -m file -a "path=/home/ansible/file.txt state=absent"</h1>
+    <h1>ansible dev -b -m file -a "path=/home/ansible/file.txt state=touch mode=0777"</h1>
+    <h1>ansible dev -b -m file -a "path=/home/ansible/file.txt state=absent mode=0777"</h1>
+    <h1>ansible dev -b -m package -a "name=git state=installed</h1>
+    <h1>ansible dev -b -m package -a "name=docker state=installed</h1>
+    <h1>ansible dev -b -m shell -a "docker pull httpd"</h1>
+    <h1>ansible dev -b -m shell -a "docker run -d --name httpd-container httpd"</h1>
+    <h1>ansible dev -b -m command -a "git clone https://github.com/Sonu-Sr/chats.git"</h1>
+</body>
+</html>
